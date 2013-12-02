@@ -29,7 +29,7 @@ export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
 
 #Set TZ using already configured system setting
 #systemsetup -gettimezone | sed 's/Time\ Zone:\ //g' | xargs sh -c "export TZ='$1'"
-export TZ='Europe/Brussels'
+export TZ='Asia/Shanghai'
 
 # fix multibyte errors in ruby 1.9.x
 export RUBYOPT='-Ku'
